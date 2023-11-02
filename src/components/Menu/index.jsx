@@ -12,13 +12,13 @@ export default function Menu() {
         <Link to="/" className={style.logo}>
           <img src={iconyoga} alt="Yoga" />
         </Link>
-        <Link to="/" className={style.logo}>
+        <Link to="#" className={style.logo}>
           <img src={iconswim} alt="Natation" />
         </Link>
-        <Link to="/" className={style.logo}>
+        <Link to="#" className={style.logo}>
           <img src={iconbike} alt="Vélocyclette" />
         </Link>
-        <Link to="/" className={style.logo}>
+        <Link to="#" className={style.logo}>
           <img src={iconbody} alt="Musculation" />
         </Link>
       </div>

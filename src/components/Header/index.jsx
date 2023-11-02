@@ -15,15 +15,15 @@ export default function Header() {
 				className={({ isActive }) => isActive ? "active" : "inactive"}>
 					Accueil
 				</NavLink></li>
-				<li><NavLink to="/"
+				<li><NavLink to="#"
 				className={({ isActive }) => isActive ? "active" : "inactive"}>
 					Profil
 				</NavLink></li>
-        <li><NavLink to="/"
+				<li><NavLink to="#"
 				className={({ isActive }) => isActive ? "active" : "inactive"}>
 					Réglage
 				</NavLink></li>
-        <li><NavLink to="/"
+				<li><NavLink to="#"
 				className={({ isActive }) => isActive ? "active" : "inactive"}>
 					Communauté
 				</NavLink></li>
