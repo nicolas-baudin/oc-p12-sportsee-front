@@ -1,13 +1,15 @@
 import { Outlet } from 'react-router'
-import MenuTop from '../../components/MenuTop'
-import MenuLeft from '../../components/MenuLeft'
+import Header from '../../components/Header'
+import Menu from '../../components/Menu'
 
 const Landing = () => {
   return (
     <>
-      <MenuTop />
-      <MenuLeft />
-      <Outlet />
+      <Header />
+      <main>
+        <Menu />
+        <Outlet />
+      </main>
     </>
   )
 }
